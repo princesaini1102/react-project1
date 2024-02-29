@@ -1,0 +1,103 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+}
+ .nike-logo{
+  width: 70px;
+  height: 40px;
+  
+}
+/* .main{
+  margin-top: 10px;
+  margin-left: 40px;
+} */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 72px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+button{
+  all: unset;
+  padding: 6px 16px;
+  background: red;
+  height: 32px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+nav ul li {
+  cursor: pointer;
+  
+}
+/* li:hover{
+  border: 1px solid white;
+  width: 80px;
+  height: 30px;
+  border-radius: 50px;
+  background: rgba(0, 0, 255, 0.561);
+  color: white;
+  text-align: center;
+  
+} */
+.Category-btn{
+    all:unset;
+    border: 2px solid black;
+    cursor: pointer;
+    height: 28px;
+    padding: 6px 16px;
+    font-weight: 500;
+}
+.hero{
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 72px);
+}
+.main-content{
+  margin-left: 147px;
+}
+.main-content>h1{
+  font-size: 90px;
+  font-weight: 800;
+  line-height: 90px;
+}
+.main-content>p{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #5a5959;
+  margin-top: 15px;
+}
+.hero-btn{
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+
+}
+.shopping>p{
+margin-top: 15px;
+font-weight: 400;
+font-size: 16px;
+color: #5a5959;
+}
+.brand-icons{
+  display: flex;
+  gap: 16px;
+  margin-top: 15px;
+}
+.image{
+  margin-top: 50px;
+  width: 530px;
+  height: 487px;
+}
